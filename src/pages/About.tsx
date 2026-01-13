@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import StarField from "@/components/StarField";
 import { Code, Palette, Rocket, Heart } from "lucide-react";
 
 const skills = [
@@ -19,7 +20,7 @@ const values = [
 const AboutPage = () => {
   return (
     <div className="relative min-h-screen">
-      <div className="starfield" />
+      <StarField />
       <div className="relative z-10">
         <Navbar />
         <main className="pt-32 px-6">
