@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import StarField from "@/components/StarField";
 import { Building2, Calendar, MapPin, GraduationCap } from "lucide-react";
 
 const workExperience = [
@@ -45,7 +46,7 @@ const education = [
 const ExperiencePage = () => {
   return (
     <div className="relative min-h-screen">
-      <div className="starfield" />
+      <StarField />
       <div className="relative z-10">
         <Navbar />
         <main className="pt-32 px-6">

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import StarField from "@/components/StarField";
 import { Mail, MapPin, Clock, Send, Github, Linkedin, Twitter } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -51,7 +52,7 @@ const ContactPage = () => {
 
   return (
     <div className="relative min-h-screen">
-      <div className="starfield" />
+      <StarField />
       <div className="relative z-10">
         <Navbar />
         <main className="pt-32 px-6">

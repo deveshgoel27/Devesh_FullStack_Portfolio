@@ -5,12 +5,13 @@ import Projects from "@/components/Projects";
 import TechStack from "@/components/TechStack";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import StarField from "@/components/StarField";
 
 const Index = () => {
   return (
     <div className="relative min-h-screen">
-      {/* Starfield Background */}
-      <div className="starfield" />
+      {/* Animated Starfield Background */}
+      <StarField />
       
       {/* Content */}
       <div className="relative z-10">
